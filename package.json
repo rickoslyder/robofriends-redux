@@ -28,8 +28,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
+    "build": "react-scripts build && cp public/manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "gh-pages": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
@@ -48,5 +50,5 @@
   "devDependencies": {
     "nodemon": "^2.0.19"
   },
-  "homepage": "./"
+  "homepage": "https://rickoslyder.github.io/robofriends-redux"
 }
