@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect mock Card component JSX to match snapshot 1`] = `
+<CardList
+  robots={
+    Array [
+      Object {
+        "email": "test1@test.com",
+        "id": "1",
+        "name": "test1",
+      },
+      Object {
+        "email": "test2@test.com",
+        "id": "2",
+        "name": "test2",
+      },
+      Object {
+        "email": "test3@test.com",
+        "id": "3",
+        "name": "test3",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`expect rendered mock Card component to match snapshot 1`] = `
+<body>
+  <div>
+    <div>
+      <div
+        class="tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5"
+      >
+        <img
+          alt="robots"
+          src="https://robohash.org/1?size=200x200"
+        />
+        <div>
+          <h2>
+            test1
+          </h2>
+          <p>
+            test1@test.com
+          </p>
+        </div>
+      </div>
+      <div
+        class="tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5"
+      >
+        <img
+          alt="robots"
+          src="https://robohash.org/2?size=200x200"
+        />
+        <div>
+          <h2>
+            test2
+          </h2>
+          <p>
+            test2@test.com
+          </p>
+        </div>
+      </div>
+      <div
+        class="tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5"
+      >
+        <img
+          alt="robots"
+          src="https://robohash.org/3?size=200x200"
+        />
+        <div>
+          <h2>
+            test3
+          </h2>
+          <p>
+            test3@test.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

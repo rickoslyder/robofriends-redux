@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect mock CounterButton component JSX to match snapshot 1`] = `
+<CounterButton
+  color="red"
+/>
+`;
+
+exports[`expect rendered mock CounterButton component to match snapshot 1`] = `
+<body>
+  <div>
+    <button
+      color="red"
+    >
+      Count: 
+      0
+    </button>
+  </div>
+</body>
+`;
